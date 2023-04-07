@@ -3,8 +3,48 @@
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+    margin: 20px 0 50px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
 a {
-    padding: 20px;
+    padding: 10px 20px;
     border: 2px solid black;
     border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: orange;
+    color: black;
+}
+
+a:active {
+    background-color: aqua;
+    border: 2px solid rgb(25, 179, 179);
+}
+
+.click {
+    background-color: rgb(49, 125, 255);
+}
+
+.reset {
+    background-color: rgb(250, 86, 86);
 }
