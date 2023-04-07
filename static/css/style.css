@@ -15,7 +15,7 @@ p {
     margin-bottom: 50px;
 }
 
-#buttons {
+.buttons {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -47,4 +47,8 @@ a:active {
 
 .reset {
     background-color: rgb(250, 86, 86);
+}
+
+.add-two {
+    background-color: rgb(66, 110, 66);
 }

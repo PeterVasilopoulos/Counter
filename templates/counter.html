@@ -11,11 +11,21 @@
 <body>
     <h1>COUNTER</h1>
 
-    <p id="count">1</p>
+    <p id="count">Counter: {{session['count']}}</p>
+    <p id="page_count">Page Counter: {{session['page_count']}}</p>
 
-    <div id="buttons">
+    <div class="buttons">
         <a href="" class="click">Click</a>
-        <a href="" class="reset">Reset</a>
+        <a href="/destroy_session" class="reset">Reset</a>
     </div>
+
+    <div class="buttons">
+        <a href="/add_two" class="add-two">+2</a>
+    </div>
+
+    <form action="/increase_by_num" method="POST">
+        <input type="number" name="num">
+        <button>Submit</button>
+    </form>
 </body>
 </html>
