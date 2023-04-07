@@ -52,3 +52,15 @@ a:active {
 .add-two {
     background-color: rgb(66, 110, 66);
 }
+
+#counter-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+input {
+    text-align: center;
+    width: 50px;
+    height: 20px;
+}
